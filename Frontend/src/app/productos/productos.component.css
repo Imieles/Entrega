@@ -1,0 +1,166 @@
+#Titulo1 {
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    z-index: 5;
+}
+#celular{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+#computador{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    left: 14.5%;
+}
+h2{
+    color: white;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 45%;
+}
+h5{
+    font-family: 'Nerko One', cursive;
+    margin-left: 17%;
+    margin-right: 48%;
+    text-align: justify;
+}
+h6{
+    color: white;
+    font-family: 'Roboto';
+    position: absolute;
+    text-align: justify;
+    top: 55%;
+    font-size: 20px;
+    font-weight: normal;
+}
+#texcel{
+    left: 20%;
+}
+#texcompu{
+    right: 27%;
+}
+#descel{
+    left: 20%;
+    right: 52%;
+}
+#descom{
+    left: 52%;
+    right: 20%;
+
+}
+button{
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    position: absolute;
+    top: 75%;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+    border-color: none;
+}
+#btcel{
+    left: 25%;
+    background-color: #005D90;
+}
+#btcomp{
+    left: 57%;
+    background-color: #DB891D;
+
+}
+#equipo{
+    position: absolute;
+    top: 930px;
+    left: 58%;
+    border-radius: 15px;
+}
+
+/*Desde aqui se debe modificar*/
+.promo {
+    width: 100%;
+}
+
+.contenido-categorias {
+    margin-top: 2rem;
+    position: relative;
+}
+
+
+.categorias-genericas {
+    width: 20%;
+    padding-left: 1rem;
+    border: solid rgb(200, 200, 200);
+    border-width: 1px;
+}
+
+.categorias-productos {
+    position: relative;
+    width: 80%;
+    margin-top: -10.1rem;
+    margin-left: 20%;
+}
+
+.categoria-producto {
+    border: solid rgb(200, 200, 200);
+    border-width: 1px;
+    padding-top: 1rem;
+}
+
+.img-cat {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.cont-promo {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.promocion {
+    background-color: rgb(180, 0, 0);
+    color: white;
+    width: 6rem;
+    padding: 0.1rem 0.1rem 0 0;
+    text-align: center;
+}
+
+.precios {
+    color: rgb(180, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width:600px) {
+    .categorias-genericas {
+        display: none;
+    }
+    .categorias-productos {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

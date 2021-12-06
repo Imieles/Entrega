@@ -1,0 +1,113 @@
+.header {
+    background: url(../assets/Imagenes/Fondos/Fondo.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+
+  }
+.header .navbar {
+    background-color: transparent !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: 25px;
+    color: white !important;
+    z-index: 5;
+  }
+
+#logo {
+    background-image: url("../assets/Imagenes/Logo/Ecotec1.png");
+    margin-left: 45%;
+    width: 150px;
+    height: 60px;
+    background-size: 100% 100%;
+}
+#menu {
+    padding-left: 25%;
+    padding-top: 50px;
+    margin-top: 1%;
+
+}
+#canasta{
+    font-size: 13px;
+    padding-top: 0px;
+    padding-left: 50px;
+
+}
+#celular{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+#computador{
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    left: 14.5%;
+}
+h2{
+    color: white;
+    font-family: 'Roboto';
+    position: absolute;
+    top: 45%;
+}
+h5{
+    font-family: 'Nerko One', cursive;
+    margin-left: 17%;
+    margin-right: 48%;
+    text-align: justify;
+}
+h6{
+    color: white;
+    font-family: 'Roboto';
+    position: absolute;
+    text-align: justify;
+    top: 55%;
+    font-size: 20px;
+    font-weight: normal;
+}
+#texcel{
+    left: 20%;
+}
+#texcompu{
+    right: 27%;
+}
+#descel{
+    left: 20%;
+    right: 52%;
+}
+#descom{
+    left: 52%;
+    right: 20%;
+
+}
+button{
+    width: 250px;
+    height: 70px;
+    border-radius: 35px;
+    position: absolute;
+    top: 75%;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+    border-color: none;
+}
+#btcel{
+    left: 25%;
+    background-color: #005D90;
+}
+#btcomp{
+    left: 57%;
+    background-color: #DB891D;
+
+}
+#equipo{
+    position: absolute;
+    top: 930px;
+    left: 58%;
+    border-radius: 15px;
+}
